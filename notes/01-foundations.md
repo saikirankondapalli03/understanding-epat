@@ -1,8 +1,8 @@
 # 01 — Foundations
 
-**Read this first.** Every later file uses these words.
+Every later file uses these words.
 
-← [Index](00-READ-IN-THIS-ORDER.md) · Next: [02 Two types of momentum](02-two-types-of-momentum.md) →
+← [Retail focus](00-for-retail-traders.md) · [Index](00-READ-IN-THIS-ORDER.md) · Next: [02 Two types of momentum](02-two-types-of-momentum.md) →
 
 ---
 
