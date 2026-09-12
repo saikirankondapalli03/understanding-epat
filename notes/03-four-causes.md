@@ -2,7 +2,7 @@
 
 **Slides:** 4–5, 97, 121–122
 
-← [02 Two types](02-two-types-of-momentum.md) · Next: [04 MATLAB essentials](04-matlab-essentials.md) →
+← [02 Two types](02-two-types-of-momentum.md) · Next: [04 Python essentials](04-python-essentials.md) →
 
 ---
 
@@ -68,4 +68,4 @@ Name the cause:
 
 Answers: (1) forced flow (2) slow news (3) roll (4) HFT ignition.
 
-Next: [04 MATLAB essentials](04-matlab-essentials.md) — skip to [05](05-futures-and-roll-returns.md) if you only need concepts.
+Next: [04 Python essentials](04-python-essentials.md) — skip to [05](05-futures-and-roll-returns.md) if you only need concepts.

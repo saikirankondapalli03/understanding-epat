@@ -35,7 +35,7 @@ The slide images did not extract as text. From the rest of the lecture, Chan’s
 
 ## Five calculations to redo on paper
 
-1. Daily return from a close series using a 1-day lag (`mybackshift`).
+1. Daily return from a close series using a 1-day lag (`shift` / `pct_change` in file 04).
 2. Sign of roll from two points on a forward curve (near vs next).
 3. VX–ES: why **long VX is hedged by long ES**, and the `0.1 × DTE` rule.
 4. UPRO: given AUM, leverage L, and index return r, dollars to buy/sell at the close: \((L^2 - L) \times r \times \text{AUM}\).
@@ -62,6 +62,6 @@ If you can explain out loud:
 2. Why **2009** destroyed CS momentum
 3. Why UPRO must sell **$32.4M** after a −2% SPX day on $270M AUM
 
-…you understand the lecture. MATLAB is how Chan typed it.
+…you understand the lecture. Chan typed it in MATLAB; the same logic is in `python/`.
 
 Keep in touch details on the last slide (Chan’s email/blog/site) do not matter for the exam. The workshop reminder is: zip `C:/MomentumWS/` if you were in the live class.

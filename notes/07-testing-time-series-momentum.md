@@ -16,14 +16,14 @@ Correlate **lookback** return with later **holding-period** return.
 
 Use **non-overlapping** windows. If you overlap, one crash gets counted twenty times and the p-value lies.
 
-MATLAB: `corrcoef` gives the correlation **and** a p-value for “true correlation = 0.”
+Python: `scipy.stats.pearsonr` gives the correlation **and** a p-value for “true correlation = 0.” See [`python/correlation_test.py`](../python/correlation_test.py).
 
 - Positive correlation + p-value below about **0.05** → evidence of TS momentum.
 - You can also correlate the **signs** of past vs future returns (direction persists, not just size). Slide 66 is that table for TU.
 
 ### TU (2-year Treasury future) — what the grid says
 
-Instrument: `TU` on CME. File: `correlationTest.m`, data `inputDataOHLCDaily_20120517.mat`.
+Instrument: `TU` on CME. Python: [`python/correlation_test.py`](../python/correlation_test.py).
 
 Patterns to remember (not every cell):
 
@@ -44,7 +44,7 @@ A single number for “does the series remember its direction?”
 | **H = 0.5** | Random walk |
 | **H < 0.5** | Anti-persistent — **mean reversion** |
 
-Function: `genhurst` (download; Google it as the slide says).
+Function: `hurst()` in [`python/hurst_vratio.py`](../python/hurst_vratio.py).
 
 ## Test C — variance ratio
 
@@ -53,7 +53,7 @@ Idea: if daily moves were independent, a 10-day return’s variance would be abo
 - **Larger** than that → moves cluster in the same direction → momentum.
 - **Smaller** → moves cancel → mean reversion.
 
-MATLAB Econometrics Toolbox: `vratiotest`. Combined program: `TU_mom.m`.
+Python: `variance_ratio()` in [`python/hurst_vratio.py`](../python/hurst_vratio.py). Combined strategy: [`python/tu_mom.py`](../python/tu_mom.py).
 
 ---
 

@@ -22,7 +22,7 @@ If you buy at 100 and sell at 110:
 
 If it falls to 90, the return is \(-10\%\).
 
-A **daily return** is that calculation from yesterday’s close to today’s close. In MATLAB it is written with a **lag**: today’s price minus yesterday’s price, divided by yesterday’s price. That lag function is `mybackshift` in file 04.
+A **daily return** is that calculation from yesterday’s close to today’s close. In Python you **lag** the close (yesterday’s price on today’s row), then `(today - yesterday) / yesterday`. That is `lag` / `pct_change` in file 04 and `python/helpers.py`.
 
 ## Long and short
 

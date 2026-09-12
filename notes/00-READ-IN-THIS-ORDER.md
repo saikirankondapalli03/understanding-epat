@@ -5,12 +5,14 @@ Source PDF: `EFS-04-05Quantitative-Momentum-StrategiesLN.pdf`
 
 Read the numbered files **in order**. Each file assumes you finished the one before it. Do not skip to VX–ES or PEAD until roll returns make sense.
 
+Chan wrote MATLAB. All code in these notes is **Python**; runnable copies live in [`python/`](../python/README.md).
+
 | Order | File | What it unlocks | Slides |
 |------:|------|-----------------|--------|
 | 1 | [01-foundations.md](01-foundations.md) | Price, return, long/short, backtest language | — |
 | 2 | [02-two-types-of-momentum.md](02-two-types-of-momentum.md) | Time-series vs cross-sectional | 44 |
 | 3 | [03-four-causes.md](03-four-causes.md) | The map of the whole lecture | 4–5, 121–122 |
-| 4 | [04-matlab-essentials.md](04-matlab-essentials.md) | Arrays, lag, returns — the tool chapter | 6–34 |
+| 4 | [04-python-essentials.md](04-python-essentials.md) | Arrays, lag, returns in Python | 6–34 |
 | 5 | [05-futures-and-roll-returns.md](05-futures-and-roll-returns.md) | Spot vs futures, contango, backwardation | 35–43 |
 | 6 | [06-isolating-roll-vx-es.md](06-isolating-roll-vx-es.md) | Hedge spot, keep roll; VX–ES | 45–61 |
 | 7 | [07-testing-time-series-momentum.md](07-testing-time-series-momentum.md) | Correlation, Hurst, variance ratio | 62–68 |
@@ -25,7 +27,7 @@ Read the numbered files **in order**. Each file assumes you finished the one bef
 ## One-day timing
 
 - Files 01–03: 45 minutes (do not rush the vocabulary).
-- File 04: 60 minutes if you must code; 20 minutes if the exam is conceptual.
+- File 04: 60 minutes if you must code (Python in `python/`); 20 minutes if the exam is conceptual.
 - Files 05–06: 2 hours (this is the hard core).
 - Files 07–10: 2 hours.
 - Files 11–14: 90 minutes.

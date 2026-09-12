@@ -2,7 +2,7 @@
 
 **Slides:** 35–43
 
-← [04 MATLAB](04-matlab-essentials.md) · Next: [06 Isolating roll / VX–ES](06-isolating-roll-vx-es.md) →
+← [04 Python](04-python-essentials.md) · Next: [06 Isolating roll / VX–ES](06-isolating-roll-vx-es.md) →
 
 This is the hard core of the lecture. Do not leave until the gold example is obvious.
 

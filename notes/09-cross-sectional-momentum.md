@@ -48,7 +48,7 @@ Factor returns change **slowly**. A long–short book **hedges market return**.
 - Long **top decile**, short **bottom decile**
 - Hold a **month**
 
-Data: `inputDataOHLCDaily_stocks_20120424`. Program: `kentdaniel.m`.
+Python: [`python/kentdaniel.py`](../python/kentdaniel.py).
 
 ### Numbers to memorize (slide 82)
 

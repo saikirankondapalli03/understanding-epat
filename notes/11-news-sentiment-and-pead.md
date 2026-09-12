@@ -44,7 +44,7 @@ Let `retC2O` = close-to-open return (the overnight gap). Compare it to how wild 
 | otherwise | No trade |
 | Exit | **Market close** (intraday). Exercise: also try holding overnight |
 
-Data: stock OHLC file + `earnannfile`. Program: `pead.m`.
+Python: [`python/pead.py`](../python/pead.py).
 
 **Results (2011/1/3–2012/4/24, SPX stocks):** APR **6.7%**, Sharpe **1.5**.
 

@@ -17,7 +17,7 @@ Tests liked **lookback 250, hold 25** (corr 0.27, p = 0.024). Holding period is 
 - Hold about **one month**
 - Start a **new overlapping position every day** (“staggered” / “pyramided”). You always have about 25 slices on, so you are not betting on one calendar day.
 
-Program: `TU_mom.m`.
+Program: [`python/tu_mom.py`](../python/tu_mom.py).
 
 **Results (no transaction costs):** APR **1.7%**, Sharpe **1.0**, max drawdown **−2.5%**. Quiet, stable, not exciting — and that is the point for a rates future.
 
@@ -51,8 +51,8 @@ Do not run pure breakout if a short-term **dip** inside a still-alive uptrend is
 
 - **Buy** at close if price is **lower than 30 days ago** (recent dip) **but higher than 40 days ago** (higher-timeframe uptrend still on).
 - Short is the mirror.
-- Data: `inputDataOHLCDaily_20120504.mat`. Program: `CL_rev.m`.
-- Backtest **momentum alone**, **reversal alone**, and **combo**. Plot all three on one axis with `dateaxis` to see **when** each worked.
+- Python: [`python/cl_rev.py`](../python/cl_rev.py).
+- Backtest **momentum alone**, **reversal alone**, and **combo**. Plot all three vs date to see **when** each worked.
 
 The lecture’s claim: combo beats either piece.
 
