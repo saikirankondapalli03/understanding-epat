@@ -3,7 +3,7 @@
 **Read this before the lecture, and before you “go deeper.”**  
 This file is a money map. The other notes are a course. Those are not the same thing.
 
-← [Index](00-READ-IN-THIS-ORDER.md) · Next: [01 Foundations](01-foundations.md) →
+← [Index](00-READ-IN-THIS-ORDER.md) · Next: [Study plan](00-study-plan.md) →
 
 ---
 
@@ -101,4 +101,4 @@ If (1) is “separate ATM,” stop. The money is not there. If (2) is “I have 
 
 **Done enough:** You can say: TS vs CS; the four causes and that you are using **trend as a filter**; why 2009 wrecked shorts; your ticker, size, and stop; and that **the market’s return is the money, the filter is optional insurance.**
 
-Then [01 Foundations](01-foundations.md) for vocabulary. Come back here when a slide starts to feel like a new business.
+Then [Study plan](00-study-plan.md) for the calendar, then [01 Foundations](01-foundations.md) for vocabulary. Come back here when a slide starts to feel like a new business.
