@@ -9,7 +9,7 @@ Chan wrote MATLAB. All code in these notes is **Python**; runnable copies live i
 
 | Order | File | What it unlocks | Slides |
 |------:|------|-----------------|--------|
-| 0 | [00-for-retail-traders.md](00-for-retail-traders.md) | What to focus on so you do not drown in tutorials | — |
+| 0 | [00-for-retail-traders.md](00-for-retail-traders.md) | Where retail dollars actually are; what is worth going deep on | — |
 | 1 | [01-foundations.md](01-foundations.md) | Price, return, long/short, backtest language | — |
 | 2 | [02-two-types-of-momentum.md](02-two-types-of-momentum.md) | Time-series vs cross-sectional | 44 |
 | 3 | [03-four-causes.md](03-four-causes.md) | The map of the whole lecture | 4–5, 121–122 |
@@ -27,7 +27,7 @@ Chan wrote MATLAB. All code in these notes is **Python**; runnable copies live i
 
 ## One-day timing
 
-- File 00 (retail focus): 20 minutes. Write the one-sentence market + cause before continuing.
+- File 00 (retail focus): 20 minutes. Decide whether you are hunting beta+a filter, or a fantasy ATM.
 - Files 01–03: 45 minutes (do not rush the vocabulary).
 - File 04: 60 minutes if you must code (Python in `python/`); 20 minutes if the exam is conceptual.
 - Files 05–06: 2 hours (this is the hard core).

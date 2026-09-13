@@ -31,6 +31,8 @@ You can also skip blended sentiment and measure **each event type** separately.
 
 Known since **1968**. Review: Bernard and Thomas, 1989, *Journal of Accounting Research*. Still profitable in Chan’s 2011–2012 window. **Duration has shortened** over the years (hours/days instead of months).
 
+**Retail, later than this lecture:** you do **not** need colocation or a news API to *place* the trade. You need an earnings date and an open order. The problem is economic: machines and funds trade the surprise **overnight**, so most of the anomaly is inside the gap you are using as the *signal*. The open-to-close leftover is thinner, and the open is where retail pays the most. That is crowding and a shorter drift — not “retailers lack technology.”
+
 ### The rule
 
 Universe: S&P stocks. Flag: earnings announced **after yesterday’s close and before today’s open** (`earnann == 1`).
