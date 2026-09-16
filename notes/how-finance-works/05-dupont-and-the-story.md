@@ -2,7 +2,7 @@
 
 If Chapter 1 has a boss ratio, it is **ROE**. DuPont is how you refuse to be fooled by it.
 
-← [04 Industry fingerprints](04-industry-fingerprints.md) · Next: [06 Practice and recap](06-practice-and-recap.md) →
+← [04b The matching game](04b-the-matching-game.md) · Next: [06 Practice and recap](06-practice-and-recap.md) →
 
 ---
 
@@ -40,22 +40,34 @@ Why? They do not compete in the same product market, but they **do compete in th
 
 They should not be identical. **Risk** still matters. Owners demand more return where the ride is more violent. Chapter 4 will make that precise. For now: capital markets pull ROEs together; risk pulls them apart.
 
----
+### The ten-company thought experiment (1998)
 
-## Each lever has a personality
+Desai lines up ten very different firms and asks two questions before showing the numbers:
+
+1. Which of the four pieces — ROE, margin, turnover, leverage — will be **most similar** across the ten?
+2. For each lever, who should be high and who should be low?
+
+The ten: Bank of America, Carolina Power & Light, Exxon, Food Lion (a grocer), Harley-Davidson, Intel, Nike, Southwest, Tiffany, Timberland.
+
+**Answer to (1): ROE.** Margins in that set run from about 3% (Food Lion) to about 23% (Intel). Turnover runs from a bank’s tiny sales/assets to a grocer spinning assets nearly three times. Leverage runs from Intel’s ~1.3× assets/equity to a bank’s ~13×. ROEs mostly live in the teens. That is the capital-market magnet.
+
+Approximate pattern (order of magnitude, so you still look at the book’s table):
+
+| Firm | ROE personality | Margin | Turnover | Leverage |
+|------|-----------------|--------|----------|----------|
+| Food Lion | Fine ROE from **turns**, not from cents per box | Very low (~3%) | Highest | Moderate |
+| Intel | Fine-to-high ROE from **value added** | Very high (~23%) | Modest | Lowest |
+| Bank of America | Ordinary ROE on extreme leverage | Mid | Tiny (loans, not sales in the grocer sense) | Highest by far |
+| Carolina Power & Light | Solid ROE from **debt on stable cash** | Decent | Low (heavy plant) | Highest after the bank |
+| Harley, Nike, Tiffany, Southwest, Exxon, Timberland | Various mixes that still land ROE in a band | Mid | Mid | Mid |
 
 ### Margin measures value added
 
-A grocer moves boxes. Even an excellent grocer keeps only a few cents.  
-A chipmaker turns sand into computers. The transformation is violent, so margins can be huge.
-
-Do not moralize this. It is not that grocers are “worse managers.” The *process* adds less value per dollar of sales, so the market does not grant a software-like margin.
+Food Lion moves cereal. Even an excellent grocer keeps only a few cents; 4% would already be a star. **Intel turns sand into computers.** That transformation is violent, so margins can be huge. Do not moralize this. The *process* adds different amounts of value per sales dollar.
 
 ### Turnover is the grocer’s sport
 
-If you only keep 3 cents, you had better spin the asset pile many times a year. That is the grocery model: small margin, high turnover.
-
-A utility or a cash-hoarding software firm may look “unproductive” on turnover. They are playing a different game.
+If you only keep 3 cents, you had better spin the asset pile many times a year. That is Food Lion. A utility or a cash-hoarding software firm may look “unproductive” on turnover. They are playing a different game.
 
 ### Leverage should match business risk
 
@@ -64,12 +76,11 @@ A utility or a cash-hoarding software firm may look “unproductive” on turnov
 
 Stacking both is how firms die.
 
-| Business | Typical leverage logic |
-|----------|------------------------|
-| Regulated utility, stable demand | Cash flows can service debt → leverage can be high |
-| Bank | The *product* is leverage; it is also why crises start here |
-| Chipmaker that rebuilds plants every cycle | One bad generation can sink you → keep debt light |
-| High-growth tech with uncertain products | Same: do not add a mortgage to a science experiment |
+**Intel’s chip cycle, as the chapter tells it:** a new chip about every two years that does twice as much, in half the space, at half the cost, built in plants that cost billions. Get one generation wrong and the firm can go dark. That is enormous **business** risk, so **financial** risk should be tiny. Intel’s assets/equity in that table is the lowest of the non-bank set.
+
+**Carolina Power & Light:** demand is stable, prices often regulated, cash is boring. Boring cash can carry debt. Highest leverage after the bank.
+
+**The bank** is a special case: leverage *is* the product. It is also why crises start there.
 
 Classic leveraged-buyout targets are boring on purpose: sticky customers, predictable demand, low chance of sudden substitution. Tobacco, gaming, utilities — not a bleeding-edge biotech.
 
@@ -96,6 +107,8 @@ Idea: measure the return to **all** capital providers (debt + equity), using ope
 
 If ROC is weak while ROE looks fine, leverage is doing the heavy lifting. Believe ROC.
 
+Same idea, other names you will hear: **return on invested capital (ROIC)**, **return on capital employed (ROCE)**. The spirit is: operating return on the capital *all* providers put in, not just equity.
+
 ---
 
 ## Telling a story through time (the Timberland idea)
@@ -103,7 +116,7 @@ If ROC is weak while ROE looks fine, leverage is doing the heavy lifting. Believ
 Cross-section (many firms, one year) teaches fingerprints.  
 Time series (one firm, many years) teaches **narrative**.
 
-Desai walks through Timberland, an outdoor-boot maker, across the 1990s. You should read that walkthrough in the book. The method is what to steal.
+Desai walks through **Timberland**, a maker and retailer of rugged outdoor boots, across the 1990s. The comparison set is other shoe firms (Brown Group, Kenneth Cole, Nike, Stride Rite, Wolverine World Wide). You should still read the tables in the book. Below is every beat of the story so nothing is skipped.
 
 ### The method
 
@@ -116,29 +129,52 @@ Desai walks through Timberland, an outdoor-boot maker, across the 1990s. You sho
 4. Watch interest coverage like a vital sign.
 5. When the story turns, ask which lever actually improved.
 
-### A reconstructed plot (qualitative, so you still do the book’s tables yourself)
+### 1994 — looking average, actually not
 
-**Year 1 — looking average, actually not**
+Headline ROE is about **12%**, next to an industry 12%. A lazy CEO stops. DuPont refuses:
 
-Headline ROE sits next to the industry average. A lazy CEO would stop. DuPont says: margins worse than peers, turnover worse than peers, **leverage much higher**. The firm is borrowing to look OK. Interest coverage is already tight. Receivables linger far longer than the industry. Inventory is sleepy.
+| Lens | Timberland vs shoe peers |
+|------|--------------------------|
+| Profit margin / gross margin | Worse |
+| Asset turnover, inventory turns | Worse (goods sitting) |
+| Collection period | ~74 days vs ~39 — badly out of line |
+| Payable period | About the same as peers |
+| Assets / equity, debt / assets | Much more levered |
+| Times interest earned | ~3× vs ~9× — a tightrope peers are not walking |
+| ROC / return on invested capital | Clearly worse than ROE had suggested |
+| Current ratio | Fine-to-high — liquidity is not the tell |
 
-**Year 2 — near-death**
+The average ROE is **borrowed**. Operations are worse; owners are bearing extra risk.
 
-ROE goes negative. Interest coverage falls **below 1**: operating profit does not cover interest. This is an emergency.
+**Three explanations for a long collection period** (learn all three):
+
+1. Slack collection — nobody is chasing invoices.
+2. Over-generous credit, used to juice sales.
+3. Hidden bad debts: some invoices may be so old (the chapter floats “more than two hundred days”) that they will never be paid, but they still sit on the books as if they will.
+
+### 1995 — near-death
+
+ROE goes **negative**. Times interest earned collapses **below 1** (the chapter’s figure is on the order of 0.2). Operating profit does not cover interest. This is an emergency.
 
 What the numbers say they did to raise cash:
 
-- inventory turns jump while **gross margin dips** → selling goods fast, including on sale (“fire sale”)
-- collection period shortens sharply → collecting aggressively, maybe settling for less than 100 cents on the dollar
-- payables period *shrinks* even though they need cash → suppliers have the power now; they demand faster payment
+- Inventory turns jump while **gross margin dips** → selling goods fast, including on sale (“fire sale”).
+- Collection period shortens by about **twenty days** → collecting aggressively, maybe settling for 80 cents on the dollar because cash now matters more than pride.
+- Payable period *shrinks* even though they need cash → suppliers have the power now; they demand **cash on delivery**.
+- Current ratio can even *rise* after a panic pile-up of cash. Do not confuse that with health.
+- Leverage is still high; ROC is near zero.
 
-Liquidity on the current ratio can even *rise* after a panic raise of cash. Do not confuse that with health.
+Working capital here is a cash diary. Chapter 2 will name that obsession. You already have the plot.
 
-**Later years — the right levers**
+### 1996–1998 — the right levers
 
-Leverage comes down toward the industry. Inventory actually moves, and gross margin *rises* at the same time — so this is not another fire sale, it is pricing power. ROE becomes excellent, and now it comes from **profitability**, not from debt.
+- 1996: profitability still a bit light, but turnover improving and leverage coming down. Inventory moves **without** another gross-margin collapse — so this is not a second fire sale. Pricing power is returning.
+- 1997: ROE about **double** the industry, and now from operations, not from debt. Inventory turns far above 1994. Gross margin up.
+- 1998: still double-industry ROE, and by now it comes from **profitability**. Leverage has fallen toward the peer group. Interest coverage is healthy again (~10×). Collection days are *better* than the industry. Payable days stay short — a scar from the crisis, or a new habit.
 
-The business story underneath (professional managers, a brand catching fire in culture) is why the numbers bent. The numbers did not cause the turnaround. They recorded it.
+### What actually happened underneath the numbers
+
+A near-death experience pushed the firm away from **family management** toward professional managers. Around the same time the brand was adopted by hip-hop artists, which the chapter credits as part of the commercial turnaround. The numbers did not cause that. They recorded it.
 
 That is the skill: **write the plot the accounts are already telling.**
 
@@ -168,7 +204,16 @@ If ROE rose only because leverage rose, you do not congratulate management. You 
 
 ## What Desai wants you to feel at the end of Chapter 1
 
-Numbers are dry until you insist on the reality behind them. Curiosity — “is this number showing the truth or distorting it?” — is the actual professional skill. Persistence beats the first glance.
+## Real-world perspective — Laurence Debroux (Heineken)
+
+Asked what actually matters once you are in a finance seat, she does not lead with “be the smartest modeller.” Twenty years earlier she might have said hard work and technical horsepower. Those get you only so far.
+
+What she names instead:
+
+- **Persistence.** Do not take the first number as the last word. Dig. Is it showing reality or distorting it? What is the assumption underneath?
+- **Curiosity.** Numbers are dry if they stay numbers. They become interesting when you want the human reality behind them — and people start wanting to work with you.
+
+That is the chapter’s closing ethic, before the quiz: financial analysis is a story, and stories take digging.
 
 Chapter 2 will argue that even a beautiful ROE is still looking backward, and that **cash** and the **future** are the native language of finance. You needed Chapter 1 so that language has vocabulary.
 
@@ -180,7 +225,9 @@ Chapter 2 will argue that even a beautiful ROE is still looking backward, and th
 2. A grocer and a software firm have similar ROEs. Which lever is each probably using?
 3. Why can matching the industry’s ROE still be a bad report card?
 4. Interest coverage falls from 3 to 0.2. What is happening in English?
+5. Why is Intel’s low leverage a feature, not a bug?
+6. Name three reasons collection days might be far above the industry.
 
-**Answers:** (1) ROE = (profit/sales) × (sales/assets) × (assets/equity). (2) Grocer: turnover (and maybe some leverage). Software: margin. (3) Because the ROE may be manufactured with extra debt while operations lag. (4) Operating profit no longer covers interest; the firm is in a cash emergency with lenders.
+**Answers:** (1) ROE = (profit/sales) × (sales/assets) × (assets/equity). (2) Grocer: turnover (and maybe some leverage). Software: margin. (3) Because the ROE may be manufactured with extra debt while operations lag. (4) Operating profit no longer covers interest; the firm is in a cash emergency with lenders. (5) Business risk is already extreme (a new multi-billion-dollar chip generation). Do not add a mortgage. (6) Slack collection; credit used to juice sales; invoices that are really bad debts.
 
 Next: [06 Practice and recap](06-practice-and-recap.md)

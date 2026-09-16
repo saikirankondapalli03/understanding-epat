@@ -10,7 +10,7 @@ Chapter 1’s game is the whole method in disguise: match anonymized companies t
 
 A business’s economics leave a silhouette on the balance sheet. Learn the silhouettes, then confirm with a second ratio.
 
-Play the game **in the book** before you read anyone’s answers, including these notes. Struggle is the point.
+Play the game **in the book** before you read anyone’s answers, including [the full walkthrough](04b-the-matching-game.md). Struggle is the point. This file is the decision tree. File 04b is every company, every confirming story.
 
 ---
 
@@ -163,6 +163,8 @@ Intel-like firms sell to Dell-like firms. The chipmaker’s receivable *is* the 
 
 Teaching someone else the game is the test of whether you actually learned it.
 
+When you are ready for the full spoiler — every firm, every second clue, the bank crisis spiral, WhatsApp goodwill, UPS pensions, Dell’s just-in-time, Pfizer’s acquisition trail — open [04b](04b-the-matching-game.md).
+
 ---
 
 ## Check yourself
@@ -174,4 +176,4 @@ Teaching someone else the game is the test of whether you actually learned it.
 
 **Answers:** (1) A bank. (2) It sells seats, not planes; aircraft are tools, not merchandise. (3) An acquisitive pharma (or any serial buyer of intangible businesses). (4) Cold chain: refrigeration, bigger stores, more equipment to move perishable food.
 
-Next: [05 DuPont and the story](05-dupont-and-the-story.md)
+Next: play the book’s table, then [04b The matching game](04b-the-matching-game.md) · or jump to [05 DuPont](05-dupont-and-the-story.md)
